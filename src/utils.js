@@ -18,3 +18,4 @@ export function getQueryString (name) {
     return null
   }
 }
+
