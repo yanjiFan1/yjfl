@@ -46,3 +46,7 @@ utils_input.js
 check_version.js
 
 删除微信分享功能
+
+新增
+utils_input.js
+* [isIdNumber(身份证校验)](#isIdNumber)

@@ -20,7 +20,7 @@ PC
 * [isUC(当前环境是否是uc)](#isUC)
 
 share_config.js
-<!-- * [wxShareConfig(配置微信环境分享)](#wxShareConfig)
+<!-- * [wxConfig(配置微信环境分享)](#wxConfig)
 
 | 参数      | 说明          | 类型      | 例子                           |
 |--------- |-------------- |---------- |-----------------------------  |
@@ -29,8 +29,8 @@ share_config.js
 | title | 分享标题 | string | `分享标题` |
 | desc | 分享描述 | string | `分享描述` |
 | imgUrl | 分享图片地址 | string | `分享图片地址` |
-| callback | 回调参数 | function | () => {} | -->
-
+| callback | 回调参数 | function | () => {} |
+ -->
 env.js
 * [applicationEnv(生产，测试环境判断)](#applicationEnv)
 
@@ -56,6 +56,7 @@ utils_input.js
 
 校验
 * [isIdNumber(身份证校验)](#isIdNumber)
+* [isCardID(身份证校验(准确点))](#isCardID)
 * [isEmail(判断是否是email)](#isEmail)
 * [isForeignIdNumber(判断是否是外国身份证号)](#isForeignIdNumber)
 * [isMobile(判断是否是手机号)](#isMobile)

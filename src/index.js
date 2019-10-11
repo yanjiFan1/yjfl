@@ -3,10 +3,16 @@ export  {
 	isIe,
 	isUc
 } from './user_agent.js'
-// export  { wxHistoryShareConfig } from './share_config.js'
+export  { wxConfig, getWxAddress } from './share_config.js' // 未检测,暂不开放
 export { applicationEnv } from './env.js'
 export { checkVersion } from './check_version.js'
-export { getQueryString } from './utils.js';
+export { 
+	getQueryString,
+	queryString,
+	getParams, 
+	cloneObj,
+	imgCompress // 未检测,暂不开放
+} from './utils.js';
 export { 
 	onlyCn,
 	includeCn,
@@ -16,6 +22,7 @@ export {
 	includeOtherVarchar,
 	inputType,
 	isIdNumber,
+	isCardID,
 	canInput,
 	empty,
 	emptyAll,
