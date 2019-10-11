@@ -6,3 +6,43 @@
 4.基础库
 	4.1 获取参数-vue
 5. 生产，测试环境判断
+6.基础库之input
+
+### 2019/10/10 0.0.4
+
+添加模块
+
+user_agent.js
+
+PC环境
+* [isIe(当前环境是否是ie)](#isIe)
+* [isUC(当前环境是否是uc)](#isUC)
+
+utils.js
+* [queryString(获取当前url的某个查询key对应的值，参数为要想查询的键名)](#queryString)
+* [getParams(获取当前url的某个查询key对应的值，参数为要想查询的键名)](#getParams)
+* [cloneObj(对象深拷贝，参数为对象)](#cloneObj)
+
+utils_input.js
+* [onlyCn(只包含中文,和空格)](#onlyCn)
+* [includeCn(包含中文)](#includeCn)
+* [includeEn(包含英文)](#includeEn)
+* [onlyEn(全部是英文 和空格)](#onlyEn)
+* [includeEnAndCn(包括中文和英文)](#includeEnAndCn)
+* [includeOtherVarchar(对象深拷贝，参数为对象)](#includeOtherVarchar)
+* [canInput(只允许输入英文字母、数字、空格、中文（=@#）)](#canInput)
+* [empty(去除一头一尾)](#empty)
+* [emptyAll(去除所有空格)](#emptyAll)
+
+校验
+* [isIdNumber(身份证校验)](#isIdNumber)
+* [isEmail(判断是否是email)](#isEmail)
+* [isForeignIdNumber(判断是否是外国身份证号)](#isForeignIdNumber)
+* [isMobile(判断是否是手机号)](#isMobile)
+
+
+2019/10/11 
+
+check_version.js
+
+删除微信分享功能

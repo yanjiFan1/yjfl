@@ -1,6 +1,6 @@
 {
   "name": "yjfl",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "web前端公用函数库",
   "main": "dist/index.js",
   "repository": "https://github.com/yanjiFan1/yjfl.git",

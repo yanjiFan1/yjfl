@@ -1,6 +1,7 @@
-import _JSON$stringify from 'babel-runtime/core-js/json/stringify'
-// var wx = require('weixin-js-sdk')
 var axios = require('axios')
+
+// 参考  https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/JS-SDK.html#111
+
 /**
  * 微信分享配置
  * @param {*Object} opt 配置对象
