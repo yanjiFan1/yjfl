@@ -20,7 +20,7 @@ module.exports = {
    * 
    */
   wxAgentBol: () => {
-    const ua = navigator.userAgent.toLocaleLowerCase()
+    const ua = navigator.userAgent.toLocaleLowerCase() 
     if (ua.match(wx_useragent)) {
       return true
     }
