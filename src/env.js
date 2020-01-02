@@ -4,13 +4,18 @@
  * 
  */
 
-let currHref = location.href
-let applicationEnv
-if (currHref.indexOf('/prod/') !== -1) {
-  applicationEnv = 'prod'
-} else {
-  applicationEnv = 'dev'
+function applicationEnv() {
+    let currHref = location.href
+    let applicationEnv
+    if (currHref.indexOf('/prod/') !== -1) {
+      applicationEnv = 'prod'
+    } else {
+      applicationEnv = 'dev'
+    }
+
+    return applicationEnv
 }
+
 
 // 判断是浏览器内核
 function myBrowser(){
@@ -45,7 +50,7 @@ function addHandler(element, type, handler){
     } else {
         element['on'+type] = handler;
     }
-},
+}
 
 function preventDefault(event){
     if(event.preventDefault){
@@ -53,7 +58,8 @@ function preventDefault(event){
     } else{
         event.returnValue = false;
     }
-},
+}
+
 function stopPropargation(event){
     event = event || window.event;
     if(event && event.stopPropagation) {

@@ -111,7 +111,7 @@ module.exports = {
    */
   find (list, f) {
     return list.filter(f)[0]
-  }
+  },
 
   /** 深拷贝
    * Deep copy the given object considering circular structure.

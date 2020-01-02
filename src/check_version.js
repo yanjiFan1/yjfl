@@ -27,7 +27,7 @@ export function checkVersion (env, v1, v2, v3) {
 }
 
 // 获取IE版本号
-function IEVersion() {
+export function IEVersion() {
     var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串  
     var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器  
     var isEdge = userAgent.indexOf("Edge") > -1 && !isIE; //判断是否IE的Edge浏览器  

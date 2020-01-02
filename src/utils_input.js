@@ -91,7 +91,7 @@ module.exports = {
           func.apply(self, args); // arguments 是传给函数的参数，这里是 event 对象
       }, wait);
     }
-  }
+  },
 
   /**
    * 节流 触发频率， 一定时间内只会触发一次
