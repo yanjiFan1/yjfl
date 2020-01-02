@@ -33,15 +33,21 @@ share_config.js
  -->
 env.js
 * [applicationEnv(生产，测试环境判断)](#applicationEnv)
+* [myBrowser(浏览器环境判断)](#myBrowser)
+* [addHandler(addHandler兼容判断)](#addHandler)
+* [preventDefault(preventDefault兼容判断)](#preventDefault)
+* [stopPropargation(stopPropargation兼容判断)](#stopPropargation)
 
 check_version.js
 * [checkVersion(当前环境版本)](#checkVersion)
+* [IEVersion(IE版本判断)](#IEVersion)
 
 utils.js
 * [getQueryString(获取当前url的某个查询key对应的值，参数为要想查询的键名)](#getQueryString)
 * [queryString(获取当前url的某个查询key对应的值，参数为要想查询的键名)](#queryString)
 * [getParams(获取当前url的某个查询key对应的值，参数为要想查询的键名)](#getParams)
-* [cloneObj(对象深拷贝，参数为对象)](#cloneObj)
+* [imgCompress(图片压缩)](#imgCompress)
+* [deepCopy(对象深拷贝，参数为对象)](#deepCopy)
 
 utils_input.js
 * [onlyCn(只包含中文,和空格)](#onlyCn)
@@ -53,18 +59,18 @@ utils_input.js
 * [canInput(只允许输入英文字母、数字、空格、中文（=@#）)](#canInput)
 * [empty(去除一头一尾)](#empty)
 * [emptyAll(去除所有空格)](#emptyAll)
-
-校验
 * [isIdNumber(身份证校验)](#isIdNumber)
 * [isCardID(身份证校验(准确点))](#isCardID)
-* [isEmail(判断是否是email)](#isEmail)
-* [isForeignIdNumber(判断是否是外国身份证号)](#isForeignIdNumber)
-* [isMobile(判断是否是手机号)](#isMobile)
+* [isEmail(验证邮箱)](#isEmail)
+* [foreignIdNumber(判断是否是外国身份证号)](#foreignIdNumber)
+* [isMobile(验证手机号)](#isMobile)
+* [yj_debounce(防抖，连续触发之后，直到停止之后，再执行func)](#yj_debounce)
+* [yj_throttle(节流 触发频率， 一定时间内只会触发一次)](#yj_throttle)
 
-
-
-
-
+utils_dataType.js
+* [isObject(判断是否是对象)](#isObject)
+* [isPromise(判断是否是promise)](#isPromise)
+###0.0.4
 
 
 
